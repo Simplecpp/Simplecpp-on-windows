@@ -1,0 +1,42 @@
+Software requirements:
+OS: Windows7
+IDE: Code blocks-EP(not code blocks)
+
+Installation:
+1. Install Codeblocks-EP on windows.
+2. Copy all files in "Simplecpp\include" to "C:\Program Files (x86)\CodeBlocks-EP\MinGW\include"
+3. Copy files in "Simplecpp\lib" to "C:\Program Files (x86)\CodeBlocks-EP\MinGW\lib"
+4. Download WinBGIm library(available on net).
+5. Copy all files in "winbgim\include" to "C:\Program Files (x86)\CodeBlocks-EP\MinGW\include"
+6. Copy files in "Winbgim\lib" to "C:\Program Files (x86)\CodeBlocks-EP\MinGW\lib"
+
+
+Linking codeblocks-EP to Simplecpp:
+1. Open Codeblocks-EP. Close Tip of the day Window.(read if you want).
+2. Goto Settings -> Compiler and Debugger
+3. Select Linker settings Tab.
+4. Click add button under Link libraries. Browse to "C:\Program Files (x86)\CodeBlocks-EP\MinGW\lib" and add the following files one by one.(preserve the order).
+
+libsprite.a
+libbgi.a
+libgdi32.a
+libcomdlg32.a
+libuuid.a
+liboleaut32.a
+libole32.a
+
+5. Click OK.
+
+
+Creating Simplecpp Project in Codeblocks-EP:
+
+1. Go to File->New->Project
+    Select WinBGIm project and GO.
+2. Click Next.
+3. Select Graphics only and Click Next.
+4. Give your project name in First textbox. Select the path to save your project in Second textbox. Click Next.
+5. Don't change GNU GCC Compiler and Click Finish.
+6. Add new file to project and write your code.
+
+Executing:
+Ctrl+F9 and Ctrl+F10.
