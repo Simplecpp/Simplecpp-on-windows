@@ -1,0 +1,14 @@
+30/02/14  Using WinBGIm library in place of Xlib
+04/03/14  Working except events, text colours
+11/03/14  Get click, next event is added
+26/03/14  simplecpp library created
+29/03/14  Naming conflict solved, Rectangle Polygon working	
+30/03/14  Resolved all naming conflicts Rectangle,Polygon,COLOR
+01/03/14  Setup file created WinBGIm wizardnot displayed on Codeblocks
+03/03/14  Both winbgim and simplecpp is displayed on Codeblocks
+05/04/14  verify old version of simplecpp and ask for uninstallation
+12/04/14  Integrated Simplecpp on Codeblocks-EP
+15/04/14  Mouse events implemented 
+16/04/14  Key functions added
+22/04/14  Memory leaks bug are fixed.
+
